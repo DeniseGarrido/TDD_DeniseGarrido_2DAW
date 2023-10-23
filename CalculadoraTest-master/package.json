@@ -1,0 +1,16 @@
+{
+  "name": "calculadoratest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Funciones.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Antonio Camarena Ivars",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.10",
+    "jest": "^29.7.0",
+    "mocha": "^10.2.0"
+  }
+}
