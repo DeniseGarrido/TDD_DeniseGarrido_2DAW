@@ -26,11 +26,11 @@ class Ingeniero extends Trabajador {
   }
 }
 
-function mostrarNombresDirectores(directores) {
-  return directores.map(director => director.nombre);
+function mostrarNombresDirectores(director) { //aquí solo agregamos uno por parámetro
+  return `Director/a -> ${director.nombre}`;
 }
 
-function mostrarNombresIngenieros(ingenieros) {
+function mostrarNombresIngenieros(ingenieros) { //aquí aprendemos a hacerlo con map y añadir varios los cuales se van a mostrar (lo que equivaldría al bucle que hicimos forEach)
   return ingenieros.map(ingeniero => `El ingeniero ${ingeniero.nombre} usa el lenguaje de programación ${ingeniero.lenguajeProg} en el departamento ${ingeniero.departamento}`);
 }
 
