@@ -1,15 +1,16 @@
 {
-  "dependencies": {
-    "chai": "^4.3.10",
-    "mocha": "^10.2.0"
-  },
-  "name": "empresa_informatica",
+  "name": "loginusuario",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "",
+  "main": "EmpresaInformatica.js",
   "scripts": {
     "test": "mocha"
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "dependencies": {
+    "chai": "^4.3.10",
+    "jest": "^29.7.0",
+    "mocha": "^10.2.0"
+  }
 }
